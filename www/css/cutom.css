@@ -1,0 +1,63 @@
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+.rating > span {
+    display: inline-block;
+    position: relative;
+    width: 20%;
+    text-align: center;
+    font-size: 3.6em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+    content: "\2605";
+    position: absolute;
+}
+.list {
+    list-style:  none;
+    background: none;
+}
+.list li {
+    list-style:  none;
+    background: none;
+}
+.nav_custom {
+    border: none;
+}
+.logo {
+    padding-bottom: 50px;
+}
+.image_class {
+    -moz-box-shadow:    2px 2px 3px 4px #ccc;
+    -webkit-box-shadow: 2px 2px 3px 4px #ccc;
+    box-shadow:         2px 2px 3px 4px #ccc;
+    border: 4px solid #ffffff;
+}
+.custom_rating {
+
+}
+.custom_rating i {
+    color: #efc810;
+}
+.custom_rating span {
+    font-size: 2.0em;
+    font-weight: bolder;
+}
+.seperator {
+    width: 90%;
+    height: 1px;
+    background: #a9a9a9;
+    margin: 0 auto;
+
+}
+
+pre {-moz-tab-size: 16;} /* Code for Firefox */
+pre {-o-tab-size: 16;} /* Code for Opera 10.6-12.1 */
+pre {tab-size: 16;}
+.gallery_grid {
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+    border: 1 px solid #000000;
+}
